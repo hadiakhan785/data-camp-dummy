@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+}
+
+header{
+    width: 15%;
+    height: 100%;
+    background-color: #3ea0c3;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.beta-span {
+    margin-left: auto;
+    background-color: #FFC400;
+    padding: 3px;
+    font-size: 13px;
+    color: black;
+    border-radius: 2px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.active-nav {
+    display: flex;
+    align-items: center;
+    background-color: #55aecb;
+    
+}
+
+h5{
+    display: flex;
+    align-items: center;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    padding-left: 30px;
+    min-width: 10%;
+}
+
+ul {
+    padding: 0;
+}
+
+li:hover {
+    background-color: #55aecb;
+    
+}
+
+h4 {
+    background-color: #195B73;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 10px;
+    color: #7ECCE2;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.logo {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.grey {
+    color: grey;
+    margin-right: 12px;
+}
+
+.blog-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+div.subscription {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 10px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.orange-icon {
+    color: orange;
+    font-size: 16px;
+    margin-right: 8px; 
+}
+
+header button {
+    border: none;
+    background-color: #195B73;
+    padding: 10px;
+    border-radius: 50px;    
+    margin: 5px;
+    font-size: 16px;
+    color: #7ECCE2;
+}
+
+header button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+header div > section:nth-child(1) {
+    display: block;
+    font-weight: bold;    
+}
+
+header div > section:not(:nth-child(1)){
+    display: inline-block;
+    margin: 12px;
+    color: #195B73;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header div > section:not(:nth-child(1)):hover {
+    cursor: pointer;
+    color: white;
+}
+
+.top-btns {
+    margin-left: 15%;
+    position: fixed;
+    top: 0;
+    width: 84%;
+    border: 1px solid grey;
+    padding: 8px;
+    background-color: white;
+    z-index: 4;
+
+}
+
+.search-inp {
+    border: none;
+    font-family: 'Lato', sans-serif;
+    width: 25%;
+    
+}
+
+.search-inp::placeholder {
+    font-weight: bold;
+}
+
+.search-icon {
+    color: #2299b9;
+}
+
+.top-btns-container {
+    position: relative;
+    padding: 8px;
+}
+
+.top-btns-container > button {
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+   
+}
+
+.log-in-btn {
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px 20px;
+    position: absolute;
+    right: 350px;
+}
+
+.create-acc-btn, .share-article-btn {
+    border: none;
+    padding: 6px 20px;
+}
+
+.create-acc-btn {
+    background-color: #fac743;
+    position: absolute;
+    right: 210px;    
+}
+
+.share-article-btn {
+    background-color: #65d67d;
+    color: white;
+    position: absolute;
+    right: 50px;    
+}
+
+.comment-section {
+    background-color: white;    
+    margin-left: 15%;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    -webkit-box-shadow: 0px -6px 30px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -6px 30px -11px rgba(0,0,0,0.75);
+    box-shadow: 0px -6px 30px -11px rgba(0,0,0,0.75);
+    height: 5%;
+    padding: 8px;
+    display: flex;
+    z-index: 4;
+}
+
+.user-img {
+    border-radius: 150px;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.comment-box {
+    border: none;
+    width: 90%;
+    background-color: #ecf5f7;
+    padding: 8px;
+    font-family: 'Lato', sans-serif;
+}
+
+.comment-box::placeholder {
+    color: #2299b9;
+    font-weight: bold;
+    
+}
+
+input:focus {
+    outline: none;
+} 
+
+article {
+    margin-left: 15%;
+    background-color: grey;
+    padding: 0 40px;
+    position: relative;
+    
+}
+
+p {
+    margin: 52px 80px;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    
+}
+
+.side-buttons {
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+
+.side-buttons button {
+    margin: 8px;
+    padding: 8px 10px;
+    background-color: transparent;
+    border: 1px solid #E0E0E0;
+    color: #757575;
+    
+}
+
+.side-buttons-container {
+    position: fixed;    
+}
+
+.side-buttons button:nth-child(1) {
+    padding: 5px 15px;
+    background-color: #EEEEEE;
+}
+
+.side-comment {
+    color: #448AFF;
+}
+ 
+.side-buttons button:not(:nth-child(1)) {
+    border-radius: 20px;
+}
+
+.sticky-button:hover {
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+
+
